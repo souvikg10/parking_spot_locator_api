@@ -1,0 +1,26 @@
+{
+  "name": "parking-api",
+  "version": "0.0.1",
+  "private": true,
+  "description": "API Endpoint to broadcast location and trasmit it to Firebase Database",
+  "keywords": [],
+  "author": "Souvik Ghosh",
+  "license": "",
+  "main": "app.js",
+  "dependencies": {
+    "async": "^2.6.0",
+    "cors": "^2.8.4",
+    "express": "^4.12.3",
+    "firebase-admin": "^5.5.0",
+    "swagger-express-mw": "^0.1.0",
+    "uniqid": "^4.1.1"
+  },
+  "devDependencies": {
+    "should": "^7.1.0",
+    "supertest": "^1.0.0"
+  },
+  "scripts": {
+    "start": "node app.js",
+    "test": "swagger project test"
+  }
+}
